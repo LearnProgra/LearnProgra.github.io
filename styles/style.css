@@ -1,0 +1,41 @@
+p {
+    color: red;
+    width: 500px;
+    border: 1px solid black;        /* 邊框線,solid表示實線，1px，黑色 */
+    padding: 20px 20px 20px 20px;   /* 內邊距，上下左右都是20px */
+}
+
+h1 {
+    margin: 0;  /* 去除間隙清除默認樣式 */
+    padding: 20px 0;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;     /* 阴影右移，阴影下移，模糊半径，陰影基色*/
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;         /* 行间距:数字会与当前的字体尺寸相乘来设置 */
+    letter-spacing: 1px;    /* 設置字符间距 */
+}
+
+html {
+    background-color: #00539f;
+}
+
+body {
+    width: 600px;
+    /*
+        第一个值代表元素的上方和下方（在这个例子中设置为 0），
+        而第二个值代表左边和右边（在这里，auto 是一个特殊的值，
+        意思是水平方向上左右对称）
+    */
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+img {
+    display: block;     /* 實現圖像居中，改塊元素，可以換行，有外邊距 */
+    margin: 0 auto;
+}
